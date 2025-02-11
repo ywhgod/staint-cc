@@ -1,3 +1,5 @@
+Before starting the experiment, you need to configure the p4 environment, see [GitHub](https://github.com), and the experimental environment of DNCCQ-PPO,
+
 run mininet: 
 `sudo python3 train_env.py -t topology.json -b simple_switch_grpc -j ./build/mri.json`  will Start  network emulation that contains the BMV2 switch
 
