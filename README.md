@@ -18,4 +18,4 @@ mri.json is a file compiled by the P4 and runs on the switch
 run train： `python3 train.py`
 
 publish INT information to Redis message channel (rlccint_*):  `sudo python3 redis-int.py` file 
-will be trained using int information(qdepth,delay)
+will start to train using int information(qdepth,delay)
