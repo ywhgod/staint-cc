@@ -3,7 +3,7 @@ run mininet:
 
 topology.json is the network topology that needs to be created
 
-Why do you need a topology file to create a network topology? --use BMV2, need to deliver a flow table. Use this file and Python to automate the delivery of flow tables.
+Why do you need this topology file to create a network topology? --use BMV2, need to deliver a flow table. Use this file and Python to automate the delivery of flow tables.
 s1-runtime.json  and s2,s3 is the flow table that each switch needs to deliver.
 If you want to change the network topology, you need to configure the flow table in these files
 
